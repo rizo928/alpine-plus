@@ -25,6 +25,4 @@ RUN \
     wget \
     && rm -rf /var/cache/apk/*
 
-ADD rootfs /
-
 ENTRYPOINT ["/init"]
