@@ -19,4 +19,4 @@ RUN \
   rm -rf /var/cache/apk/*
 
 # Set the default command.
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
