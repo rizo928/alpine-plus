@@ -15,8 +15,16 @@ ENV \
 
 # Install packages.
 RUN \
-  apk --update add bash coreutils curl figlet nano vim git procps tar wget && \
-  rm -rf /var/cache/apk/*
+  apk add --update --no-cache bash \
+    coreutils \
+    curl \
+    nano \
+    vim \
+    git \
+    tar \
+    wget \
+    && rm -rf /var/cache/apk/*
 
-# Set the default command.
-# CMD ["/bin/bash"]
+ADD rootfs /
+
+ENTRYPOINT ["/init"]
