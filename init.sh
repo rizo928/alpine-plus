@@ -1,4 +1,5 @@
 #!/bin/bash
-while (1)
+while [1]
+do
   sleep 1000
-end
+done
