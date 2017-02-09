@@ -1,3 +1,4 @@
 #!/bin/bash
-php
-echo "Success\n"
+while (1)
+  sleep(1000)
+end
