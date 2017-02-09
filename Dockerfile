@@ -6,7 +6,8 @@
 # gliderlabs/alpine has improved packages not avail with the official alpine:latest - e.g. php-apache2, etc.
 #
 
-FROM gliderlabs/alpine
+# FROM gliderlabs/alpine
+FROM alpine:latest
 
 MAINTAINER Jerald Watts <cysix928@gmail.com>
 
