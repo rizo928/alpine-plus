@@ -3,9 +3,10 @@
 #
 # A minimal base image based on Alpine Linux with useful packages and tools.
 #
+# gliderlabs/alpine has improved packages not avail with the official alpine:latest - e.g. php-apache2, etc.
 #
 
-FROM alpine:latest
+FROM gliderlabs/alpine
 
 MAINTAINER Jerald Watts <cysix928@gmail.com>
 
