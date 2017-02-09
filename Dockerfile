@@ -27,4 +27,4 @@ RUN \
     
 ADD init.sh /init.sh
 
-ENTRYPOINT ["/init"]
+ENTRYPOINT ["/init.sh"]
