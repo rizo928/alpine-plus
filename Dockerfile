@@ -24,5 +24,7 @@ RUN \
     tar \
     wget \
     && rm -rf /var/cache/apk/*
+    
+ADD init.sh /init.sh
 
 ENTRYPOINT ["/init"]
