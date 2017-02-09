@@ -26,5 +26,7 @@ RUN \
     && rm -rf /var/cache/apk/*
     
 ADD init.sh /init.sh
+RUN chown root:root /init.sh \
+    && chmod 755 /init.sh
 
 ENTRYPOINT ["/init.sh"]
