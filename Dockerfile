@@ -7,7 +7,7 @@
 #
 
 # FROM gliderlabs/alpine
-FROM alpine:latest
+FROM alpine:edge
 
 MAINTAINER Jerald Watts <cysix928@gmail.com>
 
